@@ -47,3 +47,10 @@
 `git mv 文件名a 文件名b`将文件名a重命名为b
 
 ![](C:\Users\32894\AppData\Roaming\Typora\typora-user-images\image-20240222171820593.png)
+
+## 7. 查看日志
+
+ `git log`查看提交更新的日志，-p 可以查看每次提交的差异，--stat每次提交的简略信息
+
+![](C:\Users\32894\AppData\Roaming\Typora\typora-user-images\image-20240222172721331.png)
+

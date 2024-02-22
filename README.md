@@ -23,3 +23,11 @@
 --staged查看暂存区最后一次提交的文件
 
 ![](C:\Users\32894\AppData\Roaming\Typora\typora-user-images\image-20240222163016324.png)
+
+## 4. 提交更新
+
+`git commit -m`提交暂存区中的所有文件到本地数据库中
+
+-a跳过`git add`环节，直接提交所追踪的文件
+
+![](C:\Users\32894\AppData\Roaming\Typora\typora-user-images\image-20240222164920469.png)

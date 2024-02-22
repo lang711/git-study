@@ -2,7 +2,7 @@
 
 ## 1. 追踪文件
 
-`git add`文件或者目录的路径，如果是目录就跟踪该目录下所有文件，可使用路径正则
+`git add`文件或者目录的路径，添加到暂存区，如果是目录就跟踪该目录下所有文件，可使用路径正则
 
 ![](C:\Users\32894\AppData\Roaming\Typora\typora-user-images\image-20240222160525878.png)
 
@@ -28,6 +28,22 @@
 
 `git commit -m`提交暂存区中的所有文件到本地数据库中
 
--a跳过`git add`环节，直接提交所追踪的文件
+-a跳过`git add`环节，直接提交所有被追踪的文件
 
-![](C:\Users\32894\AppData\Roaming\Typora\typora-user-images\image-20240222164920469.png)
+![](C:\Users\32894\AppData\Roaming\Typora\typora-user-images\image-20240222165343101.png)
+
+## 5. 移除文件
+
+- `git restore`文件或者目录，同`git add`，移除暂存区的文件
+
+![](C:\Users\32894\AppData\Roaming\Typora\typora-user-images\image-20240222170450764.png)
+
+- `git rm -f`文件，移除暂存区的文件并删除工作区的文件
+
+![](C:\Users\32894\AppData\Roaming\Typora\typora-user-images\image-20240222171336262.png)
+
+## 6. 重命名文件
+
+`git mv 文件名a 文件名b`将文件名a重命名为b
+
+![](C:\Users\32894\AppData\Roaming\Typora\typora-user-images\image-20240222171820593.png)
